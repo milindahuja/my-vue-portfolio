@@ -17,5 +17,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MY_VUE_PORTFOLIO_6F901 }}
-          projectId: my-vue-portfolio-6f901
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MILIND_PORTFOLIO}}
+          projectId: milind-ahuja-portfolio-c3424
