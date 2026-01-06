@@ -13,9 +13,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy preview
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MILIND_PORTFOLIO}}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MILIND_PORTFOLIO }}
           projectId: milind-ahuja-portfolio-c3424
