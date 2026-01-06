@@ -4,7 +4,7 @@
 <template>
   <section class="min-h-screen flex items-center justify-center bg-gray-950">
     <div class="text-center max-w-3xl px-6">
-      <h1 class="text-5xl font-bold mb-6">
+      <h1 class="text-5xl font-bold mb-6 text-white">
         Hi, I’m Milind
       </h1>
 
