@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section class="bg-gray-900 py-24">
+  <section id="about" class="bg-gray-900 py-24">
     <div class="max-w-4xl mx-auto px-6">
       <h2 class="text-3xl font-semibold mb-6 text-white">
         About Me

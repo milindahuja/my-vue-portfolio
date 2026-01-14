@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-900 py-24">
+  <section id="contact" class="bg-gray-900 py-24">
     <div class="max-w-xl mx-auto px-6">
       <h2 class="text-3xl font-semibold mb-8 text-white">
         Contact
@@ -46,6 +46,8 @@ const error = ref(false)
 
 async function submitForm() {
   loading.value = true
+  console.log('db:', db)
+
 
   try {
     await addDoc(collection(db, 'messages'), {
