@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
       <!-- Logo / Name -->
       <div class="text-xl font-bold text-gray-200">
-        Milind Ahuja
+        Milind.
       </div>
 
       <!-- Navigation links -->
