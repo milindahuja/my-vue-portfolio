@@ -48,7 +48,7 @@ import { Download, Mail } from 'lucide-vue-next'
         </a>
 
         <a
-          href="/Milind-Ahuja.pdf"
+          href="/Milind_Ahuja.pdf"
           target="_blank"
           rel="noopener"
           class="inline-flex items-center gap-2 border border-white/40 text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition"
