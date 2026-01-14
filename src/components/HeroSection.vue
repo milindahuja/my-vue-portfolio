@@ -19,6 +19,13 @@ import { Download, Mail } from 'lucide-vue-next'
 
     <!-- Content -->
     <div class="relative text-center max-w-2xl px-6">
+      
+      <!-- Status Tab -->
+      <div class="inline-flex items-center justify-center gap-2 mb-4">
+        <span class="w-3 h-3 rounded-full bg-green-500"></span>
+        <span class="text-gray-300 text-sm font-medium">Available for opportunities</span>
+      </div>
+
       <h1 class="text-5xl font-bold mb-3 text-white">
         Milind Ahuja
       </h1>
