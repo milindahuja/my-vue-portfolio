@@ -4,7 +4,7 @@
 <template>
   <section
     id="about"
-    class="bg-neutral-900 text-gray-300 py-24 px-6"
+    class="bg-neutral-800 text-gray-300 py-24 px-6"
   >
     <div class="max-w-6xl mx-auto">
 
@@ -36,8 +36,8 @@
           </p>
 
           <!-- Education -->
-          <div class="bg-neutral-800 rounded-xl p-5 flex gap-4">
-            <div class="bg-neutral-700 rounded-lg p-3">
+          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4">
+            <div class="w-10 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
               🎓
             </div>
             <div>
@@ -54,8 +54,8 @@
           </div>
 
           <!-- Award -->
-          <div class="bg-neutral-800 rounded-xl p-5 flex gap-4">
-            <div class="bg-neutral-700 rounded-lg p-3">
+          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4">
+            <div class="w-15 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
               🏅
             </div>
             <div>
@@ -73,9 +73,9 @@
           </div>
 
           <!-- Languages -->
-          <div class="bg-neutral-800 rounded-xl p-5">
+          <div class="bg-neutral-700 rounded-xl p-5">
             <div class="flex items-center gap-3 mb-3">
-              <div class="bg-neutral-700 rounded-lg p-3">
+              <div class="w-10 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
                 🌍
               </div>
               <h4 class="text-white font-medium">
@@ -83,13 +83,13 @@
               </h4>
             </div>
             <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-700 px-3 py-1 rounded-full text-sm">
+              <span class="bg-neutral-500 px-3 py-1 rounded-full text-sm">
                 English (Proficient)
               </span>
-              <span class="bg-neutral-700 px-3 py-1 rounded-full text-sm">
+              <span class="bg-neutral-500 px-3 py-1 rounded-full text-sm">
                 German (Fluent)
               </span>
-              <span class="bg-neutral-700 px-3 py-1 rounded-full text-sm">
+              <span class="bg-neutral-500 px-3 py-1 rounded-full text-sm">
                 Hindi (Native)
               </span>
             </div>
