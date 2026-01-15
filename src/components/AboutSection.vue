@@ -36,7 +36,7 @@
           </p>
 
           <!-- Education -->
-          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4">
+          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4 border-1 border-neutral-500">
             <div class="w-10 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
               🎓
             </div>
@@ -54,7 +54,7 @@
           </div>
 
           <!-- Award -->
-          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4">
+          <div class="bg-neutral-700 rounded-xl p-5 flex gap-4 border-1 border-neutral-500">
             <div class="w-15 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
               🏅
             </div>
@@ -73,7 +73,7 @@
           </div>
 
           <!-- Languages -->
-          <div class="bg-neutral-700 rounded-xl p-5">
+          <div class="bg-neutral-700 rounded-xl p-5 border-1 border-neutral-500">
             <div class="flex items-center gap-3 mb-3">
               <div class="w-10 h-10 flex items-center justify-center bg-neutral-500 rounded-lg text-lg">
                 🌍
@@ -99,8 +99,8 @@
         <!-- Right Column -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-          <div class="bg-neutral-800 rounded-xl p-6">
-            <div class="bg-neutral-700 rounded-lg p-3 w-fit mb-4">
+          <div class="bg-neutral-700 rounded-xl p-6 border-1 border-neutral-500">
+            <div class="bg-neutral-500 rounded-lg p-3 w-fit mb-4">
               ✨
             </div>
             <h4 class="text-white font-medium mb-1">
@@ -111,8 +111,8 @@
             </p>
           </div>
 
-          <div class="bg-neutral-800 rounded-xl p-6">
-            <div class="bg-neutral-700 rounded-lg p-3 w-fit mb-4">
+          <div class="bg-neutral-700 rounded-xl p-6 border-1 border-neutral-500">
+            <div class="bg-neutral-500 rounded-lg p-3 w-fit mb-4">
               ⚡
             </div>
             <h4 class="text-white font-medium mb-1">
@@ -123,8 +123,8 @@
             </p>
           </div>
 
-          <div class="bg-neutral-800 rounded-xl p-6">
-            <div class="bg-neutral-700 rounded-lg p-3 w-fit mb-4">
+          <div class="bg-neutral-700 rounded-xl p-6 border-1 border-neutral-500">
+            <div class="bg-neutral-500 rounded-lg p-3 w-fit mb-4">
               👥
             </div>
             <h4 class="text-white font-medium mb-1">
@@ -135,8 +135,8 @@
             </p>
           </div>
 
-          <div class="bg-neutral-800 rounded-xl p-6">
-            <div class="bg-neutral-700 rounded-lg p-3 w-fit mb-4">
+          <div class="bg-neutral-700 rounded-xl p-6 border-1 border-neutral-500">
+            <div class="bg-neutral-500 rounded-lg p-3 w-fit mb-4">
               🚀
             </div>
             <h4 class="text-white font-medium mb-1">
