@@ -10,7 +10,8 @@
       <nav class="hidden md:flex space-x-6 text-gray-400 font-small">
         <a href="#home" class="hover:text-blue-500 transition">Home</a>
         <a href="#about" class="hover:text-blue-500 transition">About</a>
-        <a href="#projects" class="hover:text-blue-500 transition">Projects</a>
+        <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
+        <!-- <a href="#projects" class="hover:text-blue-500 transition">Projects</a> -->
         <a href="#contact" class="hover:text-blue-500 transition">Contact</a>
       </nav>
 
