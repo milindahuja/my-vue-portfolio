@@ -16,8 +16,8 @@
           class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-white"></textarea>
 
         <button type="submit" :disabled="loading"
-          class="bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition disabled:opacity-50">
-          {{ loading ? 'Sending...' : 'Send message' }}
+          class="flex items-center bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition disabled:opacity-50">
+         <Mail class="w-4 h-4 mr-2" /> {{ loading ? 'Sending...' : 'Send message' }}
         </button>
 
         <p v-if="success" class="text-green-400 mt-4">
@@ -34,6 +34,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { Mail } from 'lucide-vue-next'
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 import { db } from '../firebase'
 
