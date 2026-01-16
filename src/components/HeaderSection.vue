@@ -7,7 +7,7 @@
       </div>
 
       <!-- Navigation links -->
-      <nav class="hidden md:flex space-x-6 text-gray-400 font-small">
+      <nav class="hidden md:flex space-x-6 text-gray-400 text-xs">
         <a href="#home" class="hover:text-blue-500 transition">Home</a>
         <a href="#about" class="hover:text-blue-500 transition">About</a>
         <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
